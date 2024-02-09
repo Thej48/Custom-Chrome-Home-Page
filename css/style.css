@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100svh;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.CardsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.CardsDiv .Card{
+    cursor: pointer;
+    height: min-content;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+}
+
+.CardImg{
+    aspect-ratio: 18/6;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin: 0;
+    display: block;
+}
